@@ -1,0 +1,8 @@
+@import './main_title.css';
+
+.article{
+    background: beige;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 500px;
+}

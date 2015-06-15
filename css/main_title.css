@@ -1,10 +1,10 @@
-@import './main_title.css';
-
-.god_rolls_dices{
-    font-size: 20px;
+.main_title{
+    margin-left: 40%;
+    font-size:45px;
+    color: #55a9ff;
 }
 
-.figure{
+.main{
     background: beige;
     margin-left: 15%;
     margin-right: 15%;
@@ -12,5 +12,4 @@
     padding-right:15%;
     padding-top:15px;
     padding-bottom:15px;
-    /*width: 500px;*/
 }
