@@ -1,8 +1,32 @@
-@import './main_title.css';
+@import './main_content.css';
+
+@media(max-width:1875px) and (min-width:1520px){
+    .main{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media(max-width:1520px){
+    .main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
 
 .article{
-    background: beige;
-    padding-left: 100px;
-    padding-right: 100px;
     width: 500px;
+    float:left;
+    margin-bottom: 15px;
 }
+
+.aside{
+    float:left;
+    margin-right:100px;
+    background: #e1ffc7;
+    height:100%;
+    /*min-height: 500px;*/
+    /*min-width: 200px;*/
+    /*padding:10px*/
+}
+

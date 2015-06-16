@@ -1,0 +1,21 @@
+@import './main_content.css';
+
+.main_photo{
+    width:100%;
+    height:auto;
+}
+
+.main_navigation{
+    margin:0 30%;
+}
+.main_navigation ul{
+    list-style-type: none;
+}
+
+
+.main_navigation ul li{
+    display:inline;
+    margin:0 40px;
+    font-size:40px;
+
+}

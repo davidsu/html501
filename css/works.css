@@ -1,0 +1,9 @@
+@import './main_content.css';
+
+.book_table, .book_table th, .book_table td{
+    border:1px solid #484848;
+}
+
+.book_table th, .book_table td{
+    padding:2px 10px;
+}
