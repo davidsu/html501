@@ -4,13 +4,19 @@
     font-size: 20px;
 }
 
+.main{
+    padding:30px;
+}
+
+
+
 .figure{
-    background: beige;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-left:15%;
-    padding-right:15%;
-    padding-top:15px;
-    padding-bottom:15px;
-    /*width: 500px;*/
+    display:inline-block;
+}
+
+.photo_gallery ul li{
+    display:inline;
+    margin:0 40px;
+    font-size:40px;
+
 }

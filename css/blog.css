@@ -1,19 +1,5 @@
 @import './main_content.css';
 
-@media(max-width:1875px) and (min-width:1520px){
-    .main{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-@media(max-width:1520px){
-    .main{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-}
-
 .article{
     width: 500px;
     float:left;
@@ -21,12 +7,18 @@
 }
 
 .aside{
-    float:left;
-    margin-right:100px;
+    position:fixed;
+    right:20px;
     background: #e1ffc7;
-    height:100%;
-    /*min-height: 500px;*/
-    /*min-width: 200px;*/
-    /*padding:10px*/
+    min-height: 500px;
+    min-width: 200px;
+    padding:10px
 }
 
+.aside_title{
+    text-align: center;
+}
+
+.aside li{
+    text-align:center;
+}

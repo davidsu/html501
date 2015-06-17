@@ -5,7 +5,7 @@
 }
 
 .main{
-    background: beige;
+    background: #f3f5d7;
     margin-left: 15%;
     margin-right: 15%;
     padding-left:15%;
@@ -24,8 +24,28 @@
 
 .quotation{
     font-size:30px;
+    margin-left:0;
 }
 
 .quotation cite{
     font-size: 20px;
 }
+
+.clearfix:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+ol{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
