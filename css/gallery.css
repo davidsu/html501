@@ -8,7 +8,7 @@
     display:inline-block;
 }
 
-.photo_gallery ul li{
+.photo_gallery .ul .li{
     display:inline;
     margin:0 40px;
     font-size:40px;
