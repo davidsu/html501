@@ -1,42 +1,52 @@
 @import 'main_content.css';
 
-fieldset{
+.fieldset{
     border-width: 0;
     border-style: none;
     border-color: transparent;
 }
 
-fieldset label{
+.fieldset .label{
     display: inline-block;
     width:150px;
 }
 
-fieldset input[type="text"], fieldset textarea{
+.fieldset .input-text, .fieldset .textarea{
     width:400px;
 }
 
 
-.main button{
-    position:relative;
-    top:-20px;
+.main_section .button{
+    float:right;
+    position: relative;
+    top:50px;
     height:50px;
     border-radius:20px;
     background: #cdcdcd;
 }
 
-.main button:hover{
+.main_section .button:hover{
     background-color: #e1e1e1;
 }
 
-.main button:active{
+.main_section .button:active{
     background: #3678ff;
     color: #fff;
 
 }
 
-.main button:focus{
+.main_section .button:focus{
     outline:none;
+    border:2px #4d82ff solid;
+    box-shadow:5px 5px 10px #4d82ff;
 }
-.textArea{
+
+.form{
+    width:60%;
+    margin:0 auto;
+}
+
+.text-area{
     display: inline-block;
 }
+

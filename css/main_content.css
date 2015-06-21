@@ -4,27 +4,36 @@
     color: #55a9ff;
 }
 
-.main{
+.main_section {
     background: #f3f5d7;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-left:15%;
-    padding-right:15%;
     padding-top:15px;
     padding-bottom:15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.container{
+    min-height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .footer{
-    margin-top:15px;
-    margin-bottom:15px;
-    margin-left:30%;
-    margin-right:30%;
-    clear:both;
+    position:absolute;
+    bottom:0;
+    left:0;
+    min-height: 100px;
+    background: #303030;
+    color:#fff;
+    width:100%;
+    text-align: center;
+    font-size:20px;
 }
 
 .quotation{
     font-size:30px;
-    margin-left:0;
+    text-align: center;
 }
 
 .quotation cite{
@@ -37,6 +46,36 @@
     clear:both;
 }
 
+body{
+    margin:0;
+}
+
+.main_navigation ul{
+    list-style-type: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.main_navigation ul li{
+
+    display:inline;
+    margin:0 40px;
+    font-size:30px;
+    text-align: center;
+
+}
+
+figure img{
+    max-width: 800px;
+    margin:0 auto;
+    display: block;
+}
+
+.table{
+    margin:0 auto;
+}
 ul{
     list-style: none;
     margin:0;
@@ -47,5 +86,9 @@ ol{
     list-style: none;
     margin:0;
     padding:0;
+}
+
+.center{
+    margin:0 auto;
 }
 

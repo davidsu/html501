@@ -4,6 +4,8 @@
 .table{
     display:table;
     width:600px;
+    border:2px solid black;
+    border-bottom:0;
 }
 
 
@@ -20,10 +22,13 @@
 .cell
 {
     display: table-cell;
-    border: solid;
-    border-width: thin;
+    border-bottom:2px solid black;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.cell:nth-child(1){
+    border-right:2px solid black;
 }
 
 
