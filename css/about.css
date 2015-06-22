@@ -1,6 +1,12 @@
 @import './main_content.css';
+@import './animations/flip_card.css';
 
 .img_einsten_tongue{
     width:100%;
     height:auto;
 }
+
+.quotation{
+    margin-top:40%;
+}
+

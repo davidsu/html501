@@ -3,7 +3,7 @@
     <head lang="en">
         <meta charset="UTF-8">
         <title>about</title>
-        <link rel="stylesheet" href="./css/about.css"/>
+        <link rel="stylesheet" href="./css/aboutanim.css"/>
     </head>
     <body>
         <div class="container">
@@ -20,18 +20,23 @@
             <header>
                 <h1 class="main_title">ABOUT</h1>
             </header>
-            <main class="main_section">
+            <main class="main_section clearfix">
 
-                <figure>
-                    <figcaption>
-                        <blockquote class="quotation">If you can't explain it to a six year old, you don't
-                            understand it
-                            yourself.
-                            <cite class="cite">Albert Einstein</cite>
-                        </blockquote>
-                    </figcaption>
-                    <img class="img_einsten_tongue" src="./resources/einstein_tongue.jpeg" alt="einstein tongue"/>
-                </figure>
+                <div class="flip-card-container center">
+                    <figure class="flip-card-transformation">
+                        <figcaption class="flip-card-back flip-card-transformation flip-card-front">
+                            <blockquote class="quotation">If you can't explain it to a six year old, you don't
+                                understand it
+                                yourself.
+                                <cite>Albert Einstein</cite>
+                            </blockquote>
+                        </figcaption>
+                        <div class="flip-card-front">
+                            <img class="img_einsten_tongue" src="./resources/einstein_tongue.jpeg" alt="einstein tongue"/>
+                        </div>
+
+                    </figure>
+                </div>
             </main>
             <footer class="footer">
                 <p>
