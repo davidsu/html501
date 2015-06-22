@@ -14,3 +14,32 @@
     text-align: center;
 
 }
+
+.main_navigation{
+    margin:0 auto;
+}
+
+@media (max-width: 940px){
+    .main_navigation{
+        width:470px;
+
+    }
+}
+
+@media (max-width:470px){
+    .main_navigation{
+        width:321px;
+    }
+}
+
+@media (max-width:310px){
+    .main_navigation{
+        width:100%;
+    }
+
+    .main_navigation .ul .li{
+
+        display:block;
+
+    }
+}
