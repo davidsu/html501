@@ -1,6 +1,10 @@
+.figure{
+    margin:0 auto;
+}
+
 .figure .img{
     max-width: 800px;
     width:80%;
-    margin:0 auto;
     display: block;
+    margin:0 auto;
 }

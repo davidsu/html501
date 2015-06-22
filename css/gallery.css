@@ -1,16 +1,28 @@
 @import './main_content.css';
 
-.god_rolls_dices{
-    font-size: 20px;
-}
+
 
 .figure{
     display:inline-block;
+    vertical-align:top;
+    max-width:80%;
+    width:400px;
+
 }
 
-.photo_gallery .ul .li{
+
+.figure .img{
+    margin:0 auto;
+}
+.photo-gallery{
+    margin:0 auto;
+    text-align:center;
+}
+.photo-gallery .ul .li{
     display:inline;
-    margin:0 40px;
-    font-size:40px;
+    /*margin:0 40px;*/
+    font-size:1.7rem;
+
+
 
 }
