@@ -18,14 +18,17 @@
 
 .form{
     width:588px;
+    position:relative;
+    padding-bottom:50px;
+    margin-top:1rem;
 }
 
 
 .main_section .button{
-    float:right;
+    position:absolute;
     bottom:0;
     height:50px;
-    right:0;
+    right:1rem;
     border-radius:20px;
     background: #cdcdcd;
 }
@@ -54,9 +57,6 @@
     .figure .img{
         width:100%;
     }
-}
-
-@media (max-width: 820px){
     .fieldset .label{
         display: inline-block;
         width:25%;
@@ -65,7 +65,11 @@
         width:70%;
     }
 
-
+    .main_section .button{
+        right:5%;
+    }
 }
+
+
 
 
