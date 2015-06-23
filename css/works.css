@@ -9,7 +9,6 @@
     margin-top: 1.5em;
 
     transition:1s;
-    -webkit-transition:1s;
 }
 
 .heading {
@@ -29,7 +28,6 @@
     padding-right: .5rem;
 
     transition:1s;
-    -webkit-transition:1s;
 }
 
 .cell:nth-child(1) {
