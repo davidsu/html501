@@ -1,19 +1,5 @@
 @import './main_content.css';
-
-
-
-.figure{
-    display:inline-block;
-    vertical-align:top;
-    max-width:80%;
-    width:400px;
-
-}
-
-
-.figure .img{
-    margin:0 auto;
-}
+@import './figures/figure_in_gallery.css';
 .photo-gallery{
     margin:0 auto;
     text-align:center;

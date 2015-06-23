@@ -1,15 +1,12 @@
 @import './main_content.css';
+@import './figures/figure_in_article.css';
 
 .main_photo{
     width:100%;
     height:auto;
 }
 
-.figure{
-    float:right;
-    max-width:700px;
-    margin:1em;
-}
+
 
 .article-title{
     font-size:3rem;
@@ -22,16 +19,3 @@
 }
 
 
-@media (max-width:1270px){
-    .figure{
-        max-width: 500px;
-    }
-}
-
-@media (max-width:950px){
-    .figure{
-        max-width: 100%;
-        width:100%;
-        margin:1rem auto;
-    }
-}

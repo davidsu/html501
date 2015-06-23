@@ -1,7 +1,7 @@
 @import './resets.css';
 @import './utils.css';
 @import './main_navigation.css';
-@import './figures.css';
+@import 'figures/figures.css';
 
 .main_title{
     text-align:center;

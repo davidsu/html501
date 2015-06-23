@@ -1,0 +1,12 @@
+.figure.figure-gallery{
+    display:inline-block;
+    vertical-align:top;
+    max-width:80%;
+    width:400px;
+
+}
+
+
+.figure.figure-gallery .img{
+    margin:0 auto;
+}

@@ -1,0 +1,19 @@
+.figure.figure-float-right-in-article{
+    float:right;
+    max-width:700px;
+    margin:1em;
+}
+
+@media (max-width:1270px){
+    .figure.figure-float-right-in-article{
+        max-width: 500px;
+    }
+}
+
+@media (max-width:950px){
+    .figure.figure-float-right-in-article{
+        max-width: 100%;
+        width:100%;
+        margin:1rem auto;
+    }
+}
