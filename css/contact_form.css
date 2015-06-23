@@ -21,6 +21,9 @@
     position:relative;
     padding-bottom:50px;
     margin-top:1rem;
+
+    transition:1s;
+    -webkit-transition:1s;
 }
 
 

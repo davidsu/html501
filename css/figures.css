@@ -1,5 +1,8 @@
 .figure{
     margin:0 auto;
+
+    transition:1s;
+    -webkit-transition:1s;
 }
 
 .figure .img{
@@ -7,4 +10,6 @@
     width:80%;
     display: block;
     margin:0 auto;
+    transition:1s;
+    -webkit-transition:1s;
 }
