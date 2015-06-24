@@ -7,28 +7,43 @@
 
 
 .main_navigation .ul .li{
-
     display:inline;
-    margin:0 40px;
+    margin:0 1rem;
     font-size:30px;
     text-align: center;
+    box-sizing: border-box;
+}
+.main_navigation .ul .li a{
 
+    padding:0.8rem;
 }
 
+
+.li.current-page{
+    background-color: #202bc9;
+    color: white;
+    border-radius:50%;
+}
+
+.current-page a{
+    color: white;
+}
 .main_navigation{
-    margin:0 auto;
+    margin:1rem auto 0;
 }
 
-@media (max-width: 940px){
+
+
+@media (min-width:521px)and (max-width: 940px){
     .main_navigation{
-        width:470px;
+        width:520px;
 
     }
 }
 
-@media (max-width:470px){
+@media (max-width:520px){
     .main_navigation{
-        width:321px;
+        width:360px;
     }
 }
 

@@ -10,3 +10,49 @@
     margin-top:40%;
 }
 
+.p{
+    display: inline-block;
+    width:20%;
+    transition:.5s;
+}
+
+
+
+.about-img-container {
+
+    width:50%;
+    display: inline-block;
+    vertical-align: top;
+    transition:.5s;
+}
+
+@media(max-width:1600px){
+    .p{
+        display: block;
+        width:100%;
+    }
+    .about-img-container {
+        min-width: 600px;
+        width:70%;
+        display: block;
+
+        transition: 0s;
+    }
+}
+
+@media(max-width:1599px){
+
+    .about-img-container {
+        transition: 0s;
+    }
+}
+
+@media(max-width:1000px){
+
+    .about-img-container {
+        min-width: 0;
+        width:100%;
+        max-width: 600px;
+        display: block;
+    }
+}
