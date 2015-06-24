@@ -1,0 +1,18 @@
+.main_navigation .ul{
+    text-align: center;
+}
+
+.main_navigation .ul .li{
+    font-size:30px;
+    text-align: center;
+}
+
+.li.current-page{
+    background-color: #202bc9;
+    color: white;
+    border-radius:50%;
+}
+
+.current-page a{
+    color: white;
+}

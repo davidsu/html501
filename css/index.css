@@ -1,5 +1,5 @@
-@import './main_content.css';
-@import './figures/figure_in_article.css';
+@import './main/main_content.css';
+@import 'layouts/figures/figure_in_article.css';
 
 .main_photo{
     width:100%;

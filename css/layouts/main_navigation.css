@@ -2,42 +2,25 @@
     list-style-type: none;
     width: 100%;
     display: inline-block;
-    text-align: center;
 }
 
 
 .main_navigation .ul .li{
     display:inline;
     margin:0 1rem;
-    font-size:30px;
-    text-align: center;
     box-sizing: border-box;
 }
 .main_navigation .ul .li a{
-
     padding:0.8rem;
 }
 
-
-.li.current-page{
-    background-color: #202bc9;
-    color: white;
-    border-radius:50%;
-}
-
-.current-page a{
-    color: white;
-}
 .main_navigation{
     margin:1rem auto 0;
 }
 
-
-
 @media (min-width:521px)and (max-width: 940px){
     .main_navigation{
         width:520px;
-
     }
 }
 
@@ -53,8 +36,6 @@
     }
 
     .main_navigation .ul .li{
-
         display:block;
-
     }
 }

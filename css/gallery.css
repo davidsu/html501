@@ -1,14 +1,11 @@
-@import './main_content.css';
-@import './figures/figure_in_gallery.css';
+@import './main/main_content.css';
+@import './layouts/figures/figure_in_gallery.css';
+
 .photo-gallery{
     margin:0 auto;
     text-align:center;
 }
 .photo-gallery .ul .li{
     display:inline;
-    /*margin:0 40px;*/
     font-size:1.7rem;
-
-
-
 }

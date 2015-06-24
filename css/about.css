@@ -1,13 +1,10 @@
-@import './main_content.css';
+@import './main/main_content.css';
 @import './animations/flip_card.css';
+@import './layouts/quotation/quotation_in_flip_card.css';
 
 .img_einsten_tongue{
     width:100%;
     height:auto;
-}
-
-.quotation{
-    margin-top:40%;
 }
 
 .p{
@@ -16,14 +13,12 @@
     transition:.5s;
 }
 
-
-
 .about-img-container {
 
     width:50%;
     display: inline-block;
     vertical-align: top;
-    transition:.5s;
+    transition:1s;
 }
 
 @media(max-width:1600px){
@@ -40,12 +35,12 @@
     }
 }
 
-@media(max-width:1599px){
+/*@media(max-width:1599px){*/
 
-    .about-img-container {
-        transition: 0s;
-    }
-}
+    /*.about-img-container {*/
+        /*transition: 0s;*/
+    /*}*/
+/*}*/
 
 @media(max-width:1000px){
 
