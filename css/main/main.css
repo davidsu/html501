@@ -1,0 +1,16 @@
+@import '../base_rules/resets.css';
+@import '../utils/utils.css';
+@import './main_navigation.css';
+@import '../layouts/figures/figures.css';
+@import './main_title.css';
+@import './main_section.css';
+@import '../layouts/container.css';
+@import 'footer.css';
+@import 'quotation.css';
+@import '../animations/main.css';
+@import '../themes/background.css';
+
+
+
+
+
