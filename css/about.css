@@ -1,4 +1,4 @@
-@import './main/main_content.css';
+@import 'main/main.css';
 @import './animations/flip_card.css';
 @import './layouts/quotation/quotation_in_flip_card.css';
 
@@ -10,7 +10,6 @@
 .p{
     display: inline-block;
     width:20%;
-    transition:.5s;
 }
 
 .about-img-container {
@@ -18,7 +17,6 @@
     width:50%;
     display: inline-block;
     vertical-align: top;
-    transition:1s;
 }
 
 @media(max-width:1600px){
@@ -34,13 +32,6 @@
         transition: 0s;
     }
 }
-
-/*@media(max-width:1599px){*/
-
-    /*.about-img-container {*/
-        /*transition: 0s;*/
-    /*}*/
-/*}*/
 
 @media(max-width:1000px){
 

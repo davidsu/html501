@@ -1,4 +1,4 @@
-@import './main/main_content.css';
+@import 'main/main.css';
 
 .table {
     display: table;
@@ -8,7 +8,6 @@
     border-bottom: 0;
     margin-top: 1.5em;
 
-    transition:1s;
 }
 
 .heading {
@@ -26,8 +25,6 @@
     border-bottom: 2px solid black;
     padding-left: .5rem;
     padding-right: .5rem;
-
-    transition:1s;
 }
 
 .cell.cell-name {

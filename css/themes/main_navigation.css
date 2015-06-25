@@ -7,13 +7,23 @@
     text-align: center;
 }
 
+.main_navigation .li a{
+    color: #0000B6;
+
+}
+
+a:first-letter{
+    text-transform: uppercase;
+}
+
+
 .li.current-page{
     background-color: #202bc9;
     color: white;
     border-radius:50%;
 }
 
-.current-page a{
+.main_navigation .li.current-page a{
     color: white;
 }
 
