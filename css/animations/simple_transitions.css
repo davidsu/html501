@@ -1,0 +1,27 @@
+.figure .img{
+    transition:1s;
+}
+
+.figure{
+    transition:1s;
+}
+
+.contact-form {
+    transition:1s;
+}
+
+.cell {
+    transition:1s;
+}
+
+.table {
+    transition:1s;
+}
+
+.about-img-container {
+    transition:1s;
+}
+
+.p{
+    transition:.5s;
+}
