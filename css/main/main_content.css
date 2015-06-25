@@ -11,17 +11,26 @@
 
 video#bgvid {
     position: fixed;
-    top: 50%;
-    left: 50%;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
     background-size: cover;
 }
+
+.container{
+    animation-name: loadanim;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.4s;
+}
+
+@keyframes loadanim {
+    0%{transform: scale(0) rotate(720deg)}
+    80%{transform: scale(0.5) rotate(0deg)}
+    100%{transform: scale(1) }
+}
+
 
 
